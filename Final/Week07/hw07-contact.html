@@ -1,0 +1,135 @@
+<!-- hw07-contact.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>contact 페이지</title>
+
+
+
+    <style>
+       h2 {
+            color: white;
+            margin: 20px 0px;
+            background-color: rgba(0, 100, 0, 0.6);
+            font-size: 36px;
+        }
+          
+    
+   
+/*        테이블 */
+        table, tr, th, td {
+            border: solid 1px #ffd30d;
+            border-collapse: collapse;
+            padding: 20px;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: bold;
+            color: #000000;
+        }
+        #tbl_contact input[type='submit'] {
+            padding: 12px 17px;
+            color: #fff;
+            background: #fa6e3e;
+            border: 0;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            float: right;
+            display: inline-block;
+            width: 80px;            
+        }
+        #tbl_contact input[type='submit']:hover {
+            background: #d55427;
+            cursor: pointer;
+        }
+
+/*        contact 헤더 */
+        #txt_center {
+            font-size: 38px;
+            text-align: center;
+            background-color: rgba(224, 216, 52, 0.8);
+        }
+        #button {
+width: 100px;
+color : white;
+background-color: #FFFFFF;
+text-align: center;
+height: 60px;
+padding: 20px 0px 0px 0px;
+font-size: 20px;
+}
+#button p {
+font-size: 20px;
+background-color: hotpink;
+margin-top: 5px;
+}
+#button a {
+
+text-decoration: none;
+text-align: center;
+color:black;
+}
+#button a:hover {
+text-decoration: underline;
+text-align: center;
+background-color: brown;
+color: white;
+}
+    </style>
+</head>
+<body>
+    <div id="button">
+        <a href="../index.html">InSight</a>
+    </div>
+    <div id="wrapper">
+<!--       GNB 메뉴 시작 -->
+            <p>YA 이호승</p>
+        </div>
+<!--       GNB 메뉴 끝 -->   
+    
+<!--    본문 시작 (Contact) -->    
+        <div class="contB">
+        <h2 id="txt_center">메시지 보내기</h2>   
+
+        <div id='tbl_contact'>
+         <form id='form_contact'>
+          <table border="3">
+             <tr>
+              <td> 이름 </td>
+              <td> <input type="text" name="writer" size="55"> </td>
+              <td> 연락처 </td>
+              <td> <input type="password" name="pw"> </td>
+             </tr>
+             <tr>
+              <td> 이메일 </td>
+              <td> <input type="text" name="email" size="39"> @
+              <select>
+               <option> daum.net </option>
+               <option selected> gmail.com </option>
+               <option> naver.com </option>
+               <option> 직접입력 </option>
+              </select> </td>
+              <td> <img src="./img/lock.png" width="30" alt=""> </td>
+              <td> <input type="radio" name="protect" checked> 공개 
+                   <input type="radio" name="protect"> 비공개</td>
+             </tr>
+             <tr>
+              <td> 제목 </td>
+              <td colspan="4"> <input type="text" size="98"> </td>
+             </tr>
+             <tr>
+              <td> 메시지 </td>
+              <td colspan="4"> <textarea cols="100" rows="20"></textarea> </td>
+             </tr>
+          </table>
+          <div id="tbl_submit">
+              <input type="submit" value="전송">
+          </div>     
+          </form>    
+        </div>
+      </div>
+  <!-- content -->
+   </div>   <!-- content -->  
+  </div>    <!-- wrapper -->
+  </body>
+</html>

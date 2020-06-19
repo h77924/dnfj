@@ -1,0 +1,96 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>이호승</title>
+    <style>
+/*    GNB 메뉴 시작     */
+    @import url('./css/style.css');
+/*    GNB 메뉴 끝     */        
+/*        첫 화면(자기 소개 화면) */
+        #content {
+            text-align: center;
+        }
+        #title {
+            font-family: "맑은 고딕", "돋움"; 
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 50px;
+            color:black;
+            background-color: yellow; opacity: 0.7;
+            font-size: 5em;
+        }
+        #logo img{
+            border-radius: 50%;
+            margin: 20px 0px;
+        }
+        #profile p {
+            font-size: 20px;
+            margin: 10px;
+        }
+        #profile_introduce {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 100px;
+            padding-bottom: 50px;
+        }
+        #profile_list {
+            list-style-type: none;
+            padding: 20px;
+            text-align: center;
+        }
+        #profile {
+            border: 1px solid #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+   <div id="wrapper">
+<!--       GNB 메뉴 시작 -->
+        <div id="button">
+            <a href="./index.html"><img src="./img/logo-01.jpg" alt="본인사진"></a>
+<!--            <a href="./index.html">본인아이디</a>-->
+            <p>YA 이호승</p>
+        </div>
+       <div id="nav">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="#" class="active">Lecture</a></li>
+              <li><a href="./Week09/index.html">HW</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="./Week07/hw07-contact.html">Contact</a></li>
+              <li><a href="#profile">Profile</a></li>
+            </ul>
+        </div>
+<!--       GNB 메뉴 끝 -->
+        <div id="content">
+            <h1 id="title">Internet Basic Practice</h1>
+            <div id="logo">
+                <img src="./img/awdccccc.jpg.jpeg" alt="my_photo" width="250" title="캐릭터사진">
+            </div>
+            <div id="profile">
+                <p>컴퓨터소프트웨어공학과</p>
+                <p>1학년 YA반 20200973 이호승</p>
+            </div>
+            <div id="profile_introduce">
+               <ul id="profile_list">
+                   <li>기말과제 입니다.</li>
+                   <li>장점: 장점을 이것 저것 설명하는 중</li>
+                   <li>#기말과제 #주제 #뭘로하지 #고민이네</li>
+               </ul>
+            </div>
+       </div>  <!-- content -->
+<!--       footer 시작  -->
+       <div id="footer">
+          <div id="footer_copyright">
+            <p>
+                Copyright &copy <a href="./index.html" class="site">hoseung</a> All rights reserved.
+            </p>
+            <span>EMAIL : hmy7924@naver.com</span>
+          </div>
+       </div> <!-- footer -->
+<!--       footer 끝  -->       
+   </div>   <!-- wrapper  -->
+</body>
+</html>
