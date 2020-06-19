@@ -1,0 +1,152 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>나만의 웹페이지</title>
+    <style>
+        #wrapper {
+width: 900px;
+margin: 0 auto;
+}
+body {
+color:coral;
+font-weight: bold;
+font-family: '맑은 고딕','돋움', arial, Sans-Serif
+}
+#button {
+width: 100px;
+color : white;
+background-color: #FFFFFF;
+text-align: center;
+height: 60px;
+padding: 20px 0px 0px 0px;
+font-size: 20px;
+}
+#button p {
+font-size: 20px;
+background-color: hotpink;
+margin-top: 5px;
+}
+#button a {
+
+text-decoration: none;
+text-align: center;
+color:black;
+}
+#button a:hover {
+text-decoration: underline;
+text-align: center;
+background-color: brown;
+color: white;
+}
+#button img {
+background-size: cover;
+width: 80px;
+}
+#nav {
+padding-left: 60px;
+}
+#nav li{
+
+font-size: 20px;
+display: inline-block;
+margin-top: 30px;
+margin-bottom: 20px;
+list-style-type: none;
+width: 80px;
+border-bottom: 1px solid
+
+lightgray;
+
+margin-left: 55px;
+text-align: center;
+}
+a { text-decoration: none; }
+a:hover { color: #FFFFFF; }
+li:hover:nth-child(odd)
+{ background-color: lightgreen; }
+li:hover:nth-child(even)
+{ background-color: green; }
+.active {
+color: crimson;
+}
+      
+/*        첫 화면(자기 소개 화면) */
+        #content {
+            text-align: center;
+        }
+        #title {
+            font-family: "맑은 고딕", "돋움"; 
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 50px;
+            color: aqua; opacity: 0.5;
+            background-color:bisque; 
+            font-size: 5em;
+        }
+        #logo img{
+            border-radius: 50%;
+            margin: 20px 0px;
+        }
+        #profile p {
+            font-size: 20px;
+            margin: 10px;
+        }
+        #profile_introduce {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 100px;
+            padding-bottom: 50px;
+        }
+        #profile_list {
+            list-style-type: none;
+            padding: 20px;
+            text-align: center;
+        }
+        #profile {
+            border: 1px solid #FFFFFF;
+        }
+</style>
+</head>
+<body>
+    <div id="button">
+        <a href="../index.html">InSight</a>
+    </div>
+    <div id="wrapper">
+        <!--       GNB 메뉴 시작 -->
+                <div id="button">
+                    <a href="./index.html"><img src="img/image3.jpg" alt="본인사진"></a>
+        <!--            <a href="./index.html">본인아이디</a>-->
+                    <p>YA 이호승</p>
+                </div>
+               <div id="nav">
+                    <ul>
+                      <li><a href="../Week09/hello-css03.html">HW02</a></li>
+                      <li><a href="../Week09/hw03.html">HW03</a></li>
+                      <li><a href="../Week09/hw04.html">HW04</a></li>
+                      <li><a href="../Week09/fg.html">HW05</a></li>
+    
+                    </ul>
+                </div>
+        <!--       GNB 메뉴 끝 -->
+                <div id="content">
+                    <h1 id="title">Internet Basic Practice</h1>
+                    <div id="logo">
+                        <img src="../img/awdccccc.jpg.jpeg" alt="my_photo" width="250" title="캐릭터사진">
+                    </div>
+                    <div id="profile">
+                        <p>컴퓨터소프트웨어공학과</p>
+                        <p>1학년 YA반 20200973 이호승</p>
+                    </div>
+                    <div id="profile_introduce">
+                       <ul id="profile_list">
+                           <li>중간대체 과제입니다</li>
+                           <li>과제들에 대해 설명하는 중</li>
+                           <li>#중간대체 과제 #링크연결 #이호승 #어렵다</li>
+                       </ul>
+                    </div>
+               </div>    
+           </div>
+</body>
+</html>
